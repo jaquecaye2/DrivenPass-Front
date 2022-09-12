@@ -105,7 +105,7 @@ export default function ShowItem() {
     };
 
     const promise = axios.get(
-      `http://localhost:5000/${type}/?id=${id}`,
+      `https://drivenpass-jaquecaye.herokuapp.com/${type}/?id=${id}`,
       config
     );
 
@@ -127,7 +127,7 @@ export default function ShowItem() {
     };
 
     const promise = axios.delete(
-      `http://localhost:5000/${type}/${id}`,
+      `https://drivenpass-jaquecaye.herokuapp.com/${type}/${id}`,
       config
     );
 
