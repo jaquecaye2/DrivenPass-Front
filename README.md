@@ -40,7 +40,7 @@ Existem várias formas diferentes de se proteger. Tudo começa com o uso de senh
 
 ### 🚀 Como executar o projeto
 
-Este projeto é composto pelo front-end
+Este projeto é composto pelos arquivos front-end
 
 #### Pré-requisitos
 
