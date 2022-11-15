@@ -55,7 +55,7 @@ export default function List() {
       },
     };
 
-    const promise = axios.get(`https://drivenpass-jaquecaye.herokuapp.com/${type}`, config);
+    const promise = axios.get(`https://drivenpass-kmlu.onrender.com/${type}`, config);
 
     promise
       .then((response) => {

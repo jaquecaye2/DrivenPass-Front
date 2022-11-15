@@ -101,7 +101,7 @@ export default function NewEntryInfo() {
       };
     }
 
-    const promise = axios.post(`https://drivenpass-jaquecaye.herokuapp.com/${type}`, data, config);
+    const promise = axios.post(`https://drivenpass-kmlu.onrender.com/${type}`, data, config);
 
     promise
       .then((response) => {

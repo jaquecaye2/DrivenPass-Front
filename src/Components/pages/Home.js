@@ -25,7 +25,7 @@ export default function Home() {
       },
     };
 
-    const promise = axios.get("https://drivenpass-jaquecaye.herokuapp.com/lengthTypes", config);
+    const promise = axios.get("https://drivenpass-kmlu.onrender.com/lengthTypes", config);
 
     promise
       .then((response) => {

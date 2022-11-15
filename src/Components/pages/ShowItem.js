@@ -105,7 +105,7 @@ export default function ShowItem() {
     };
 
     const promise = axios.get(
-      `https://drivenpass-jaquecaye.herokuapp.com/${type}/?id=${id}`,
+      `https://drivenpass-kmlu.onrender.com/${type}/?id=${id}`,
       config
     );
 
@@ -127,7 +127,7 @@ export default function ShowItem() {
     };
 
     const promise = axios.delete(
-      `https://drivenpass-jaquecaye.herokuapp.com/${type}/${id}`,
+      `https://drivenpass-kmlu.onrender.com/${type}/${id}`,
       config
     );
 

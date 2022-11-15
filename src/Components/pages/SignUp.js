@@ -55,7 +55,7 @@ export default function SignUp() {
         password,
       };
 
-      const promise = axios.post("https://drivenpass-jaquecaye.herokuapp.com/signup", userData);
+      const promise = axios.post("https://drivenpass-kmlu.onrender.com/signup", userData);
 
       promise
         .then((response) => {
